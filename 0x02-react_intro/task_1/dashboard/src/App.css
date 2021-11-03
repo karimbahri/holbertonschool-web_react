@@ -1,0 +1,34 @@
+:root {
+  --color-pink: #E0354B;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.App-header {
+  display: flex;
+  border-bottom: 3px solid var(--color-pink);
+}
+
+.App-header h1 {
+  color: var(--color-pink);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.App-body {
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.App-footer {
+  position: absolute;
+  bottom: 0px;
+  border-top: 3px solid var(--color-pink);
+  width: 99%;
+}
+
+.App-footer p {
+  text-align: center;
+}

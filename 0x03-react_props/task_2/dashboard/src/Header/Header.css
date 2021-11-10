@@ -1,0 +1,18 @@
+:root {
+  --color-pink: #E0354B;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.App-header {
+  display: flex;
+  border-bottom: 3px solid var(--color-pink);
+}
+
+.App-header h1 {
+  color: var(--color-pink);
+  margin-top: auto;
+  margin-bottom: auto;
+}

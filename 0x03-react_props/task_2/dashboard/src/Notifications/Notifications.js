@@ -4,7 +4,7 @@ import closeIcon from "../close-icon.png";
 import { getLatestNotification } from "../utils";
 import NotificationItem from "./NotificationItem";
 
-const Notifications = function () {
+function Notifications () {
   return (
     <div className="Notifications" style={{
       display: "flex"
@@ -14,7 +14,7 @@ const Notifications = function () {
         <ul>
           <NotificationItem type="default" value="New course available" />
           <NotificationItem type="urgent" value="New resume available" />
-          <NotificationItem type="urgent" html={getLatestNotification()} / >
+          <NotificationItem type="urgent" html={{ __html: getLatestNotification() }} / >
         </ul>
       </div>
       

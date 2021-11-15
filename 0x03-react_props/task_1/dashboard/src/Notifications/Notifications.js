@@ -1,9 +1,10 @@
 import React from "react";
 import "./Notifications.css";
-import closeIcon from "./close-icon.png";
-import { getLatestNotification } from "./utils";
+import closeIcon from "../close-icon.png";
+import { getLatestNotification } from "../utils";
+import NotificationItem from "./NotificationItem";
 
-export const Notifications = function () {
+function Notifications () {
   return (
     <div className="Notifications" style={{
       display: "flex"
@@ -34,3 +35,5 @@ export const Notifications = function () {
     </div>
   );
 };
+
+export default Notifications;

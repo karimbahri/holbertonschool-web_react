@@ -2,8 +2,8 @@ import "./Login.css";
 import React from "react";
 import holberton_logo from "../holberton_logo.jpg";
 
-function App() {
-  return 
+function login() {
+  return (
     <React.Fragment>
         <p>Login to access the full dashboard</p>
         <label htmlFor='email'>Email</label>
@@ -12,5 +12,6 @@ function App() {
         <input type="password" id="password" />
         <button>Ok</button>
     </React.Fragment>
+    );
 }
-export default App;
+export default login;

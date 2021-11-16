@@ -1,0 +1,14 @@
+.Notifications {
+    border: 2px dashed #E0354B;
+    padding: 3px;
+}
+
+li[data='default'] {
+    color: blue;
+
+}
+
+li[data='urgent'] {
+    color: red;
+
+}

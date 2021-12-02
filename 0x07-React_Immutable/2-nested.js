@@ -1,4 +1,5 @@
 import getImmutableObject from './0-fromjs';
 
-const accessImmutableObject = (object, array) =>  getImmutableObject(object).getIn(array);
-export default accessImmutableObject;
+export default function accessImmutableObject(object, array) {
+    return getImmutableObject(object).getIn(array);
+}

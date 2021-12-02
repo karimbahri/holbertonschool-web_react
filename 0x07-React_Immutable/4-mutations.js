@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Map } from './node_modules/immutable/dist/immutable';
 
 const map = Map({
